@@ -1,6 +1,14 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
+﻿@using Microsoft.AspNetCore.Mvc.Localization;
+@using Microsoft.Extensions.Localization;
+@using MultiLanguageMVCNET6.Controllers;
+@inject IStringLocalizer<HomeController> Localizer
+@inject IHtmlLocalizer<HomeController> HtmlLocalizer
+@inject IViewLocalizer ViewLocalizer
+@{
+    ViewData["Title"] = @Localizer["privacy_policy_pc"];
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p>@HtmlLocalizer["ornek_text_html_pc"]</p>
+<p>@Localizer["ornek_text_pc"]</p>
+<p>@ViewLocalizer["view.home.ornektext"]</p>
