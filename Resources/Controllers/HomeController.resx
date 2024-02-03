@@ -150,6 +150,9 @@
   <data name="LanguageImage" xml:space="preserve">
     <value>turkiye.png</value>
   </data>
+  <data name="LanguageText" xml:space="preserve">
+    <value>Türkçe</value>
+  </data>
   <data name="ornek_coklu_dil_projesi_lc" xml:space="preserve">
     <value>örnek çoklu dil projesi</value>
   </data>

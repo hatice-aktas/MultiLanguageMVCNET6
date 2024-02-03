@@ -150,6 +150,9 @@
   <data name="LanguageImage" xml:space="preserve">
     <value>england.png</value>
   </data>
+  <data name="LanguageText" xml:space="preserve">
+    <value>English</value>
+  </data>
   <data name="ornek_coklu_dil_projesi_lc" xml:space="preserve">
     <value>sample multi-language project</value>
   </data>

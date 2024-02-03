@@ -150,6 +150,9 @@
   <data name="LanguageImage" xml:space="preserve">
     <value>russia.png</value>
   </data>
+  <data name="LanguageText" xml:space="preserve">
+    <value>Русский</value>
+  </data>
   <data name="ornek_coklu_dil_projesi_lc" xml:space="preserve">
     <value>пример многоязычного проекта</value>
   </data>
