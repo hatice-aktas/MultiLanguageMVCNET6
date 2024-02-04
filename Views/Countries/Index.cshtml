@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@inject IViewLocalizer ViewLocalizer
+<style>
+    .card-img-top{
+        width: 1.5rem;
+    }
+</style>
+<div class="container">
+    <ul class="list-group">
+        <li class="list-group-item"><img class="card-img-top" src="~/images/turkiye.png" alt="@ViewLocalizer["view.countries.turkiye_uc"]"> @ViewLocalizer["view.countries.turkiye_uc"]</li>
+        <li class="list-group-item"><img class="card-img-top" src="~/images/england.png" alt="@ViewLocalizer["view.countries.ingiltere_uc"]"> @ViewLocalizer["view.countries.ingiltere_uc"]</li>
+        <li class="list-group-item"><img class="card-img-top" src="~/images/russia.png" alt="@ViewLocalizer["view.countries.rusya_uc"]"> @ViewLocalizer["view.countries.rusya_uc"]</li>
+    </ul>
+</div>
+
+

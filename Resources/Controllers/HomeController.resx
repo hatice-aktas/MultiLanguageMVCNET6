@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="countries_lc" xml:space="preserve">
+    <value>ülkeler</value>
+  </data>
+  <data name="countries_pc" xml:space="preserve">
+    <value>Ülkeler</value>
+  </data>
+  <data name="countries_uc" xml:space="preserve">
+    <value>ÜLKELER</value>
+  </data>
   <data name="home_description_pc" xml:space="preserve">
     <value>ASP.NET Core ile &lt;a href="https://docs.microsoft.com/aspnet/core"&gt;Web uygulamaları oluşturma hakkında bilgi edinin&lt;/a&gt;.</value>
   </data>
