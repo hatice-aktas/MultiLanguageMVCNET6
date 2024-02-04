@@ -1,8 +1,9 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization;
 @using Microsoft.Extensions.Localization;
 @using MultiLanguageMVCNET6.Controllers;
-@inject IStringLocalizer<HomeController> Localizer
-@inject IHtmlLocalizer<HomeController> HtmlLocalizer
+@using MultiLanguageMVCNET6.Resources.Languages
+@inject IStringLocalizer<Lang> Localizer
+@inject IHtmlLocalizer<Lang> HtmlLocalizer
 @inject IViewLocalizer ViewLocalizer
 @{
     ViewData["Title"] = "Home Page";
