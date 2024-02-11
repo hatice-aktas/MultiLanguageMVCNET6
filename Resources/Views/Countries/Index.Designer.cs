@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MultiLanguageMvc2.Resources.Views.Countries1 {
+namespace MultiLanguageMVCNET6.Resources.Views.Countries {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MultiLanguageMvc2.Resources.Views.Countries1 {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MultiLanguageMvc2.Resources.Views.Home.Index", typeof(Index).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MultiLanguageMVCNET6.Resources.Views.Countries.Index", typeof(Index).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,56 @@ namespace MultiLanguageMvc2.Resources.Views.Countries1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ana Sayfa - Index.
+        ///   Looks up a localized string similar to İngiltere.
         /// </summary>
-        public static string view_home_text {
+        public static string view_countries_ingiltere_pc {
             get {
-                return ResourceManager.GetString("view.home.text", resourceCulture);
+                return ResourceManager.GetString("view.countries.ingiltere_pc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p style=&quot;display: inline;color: crimson;&quot;&gt;İNGİLTERE&lt;p&gt;.
+        /// </summary>
+        public static string view_countries_ingiltere_uc {
+            get {
+                return ResourceManager.GetString("view.countries.ingiltere_uc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rusya.
+        /// </summary>
+        public static string view_countries_rusya_pc {
+            get {
+                return ResourceManager.GetString("view.countries.rusya_pc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p style=&quot;display: inline;color: crimson;&quot;&gt;RUSYA&lt;p&gt;.
+        /// </summary>
+        public static string view_countries_rusya_uc {
+            get {
+                return ResourceManager.GetString("view.countries.rusya_uc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Türkiye.
+        /// </summary>
+        public static string view_countries_turkiye_pc {
+            get {
+                return ResourceManager.GetString("view.countries.turkiye_pc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;p style=&quot;display: inline;color: crimson;&quot;&gt;TÜRKİYE&lt;p&gt;.
+        /// </summary>
+        public static string view_countries_turkiye_uc {
+            get {
+                return ResourceManager.GetString("view.countries.turkiye_uc", resourceCulture);
             }
         }
     }

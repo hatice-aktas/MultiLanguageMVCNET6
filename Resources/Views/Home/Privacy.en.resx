@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="view.home.ornektext" xml:space="preserve">
-    <value>This text was written with IViewLocalizer.</value>
+    <value>&lt;p style="color: blue"&gt;This text was written with IViewLocalizer.&lt;p&gt;</value>
   </data>
 </root>

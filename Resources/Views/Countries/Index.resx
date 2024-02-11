@@ -121,18 +121,18 @@
     <value>İngiltere</value>
   </data>
   <data name="view.countries.ingiltere_uc" xml:space="preserve">
-    <value>İNGİLTERE</value>
+    <value>&lt;p style="display: inline;color: crimson;"&gt;İNGİLTERE&lt;p&gt;</value>
   </data>
   <data name="view.countries.rusya_pc" xml:space="preserve">
     <value>Rusya</value>
   </data>
   <data name="view.countries.rusya_uc" xml:space="preserve">
-    <value>RUSYA</value>
+    <value>&lt;p style="display: inline;color: crimson;"&gt;RUSYA&lt;p&gt;</value>
   </data>
   <data name="view.countries.turkiye_pc" xml:space="preserve">
     <value>Türkiye</value>
   </data>
   <data name="view.countries.turkiye_uc" xml:space="preserve">
-    <value>TÜRKİYE</value>
+    <value>&lt;p style="display: inline;color: crimson;"&gt;TÜRKİYE&lt;p&gt;</value>
   </data>
 </root>

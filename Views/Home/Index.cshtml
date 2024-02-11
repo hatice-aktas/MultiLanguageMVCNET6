@@ -1,12 +1,11 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization;
 @using Microsoft.Extensions.Localization;
-@using MultiLanguageMVCNET6.Controllers;
 @using MultiLanguageMVCNET6.Resources.Languages
 @inject IStringLocalizer<Lang> Localizer
 @inject IHtmlLocalizer<Lang> HtmlLocalizer
 @inject IViewLocalizer ViewLocalizer
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = @Localizer["home_pc"];
 }
 <div class="text-center">
     @*<h1 class="display-4">@ViewData["PageTitle"]</h1>*@

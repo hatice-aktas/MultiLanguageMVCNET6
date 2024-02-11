@@ -121,18 +121,18 @@
     <value>England</value>
   </data>
   <data name="view.countries.ingiltere_uc" xml:space="preserve">
-    <value>ENGLAND</value>
+    <value>&lt;p style="display: inline;color: green;"&gt;ENGLAND&lt;p&gt;</value>
   </data>
   <data name="view.countries.rusya_pc" xml:space="preserve">
     <value>Russian</value>
   </data>
   <data name="view.countries.rusya_uc" xml:space="preserve">
-    <value>RUSSIAN</value>
+    <value>&lt;p style="display: inline;color: green;"&gt;RUSSIAN&lt;p&gt;</value>
   </data>
   <data name="view.countries.turkiye_pc" xml:space="preserve">
     <value>Turkey</value>
   </data>
   <data name="view.countries.turkiye_uc" xml:space="preserve">
-    <value>TURKEY</value>
+    <value>&lt;p style="display: inline;color: green;"&gt;TURKEY&lt;p&gt;</value>
   </data>
 </root>
